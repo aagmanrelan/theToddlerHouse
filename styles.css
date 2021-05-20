@@ -1,0 +1,434 @@
+@media screen and (min-width: 1532px) {
+    body{
+        box-sizing: border-box;
+        overflow-x: hidden;
+        
+    }
+    
+    #PageWrap{
+        width: 92%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        background-color: rgba(239, 160, 255, 0.356);
+
+        
+    }
+   
+
+    
+    header{
+        text-align: center;
+        font-family:  'Indie Flower', cursive;
+        font-size: 100px;
+         border: 1px solid black; 
+        width: 640px;
+        height: 1026px;
+        letter-spacing:0.2em;
+        background-color: white;
+        background-image: url(./media/background.jpg);
+        background-repeat: no-repeat;
+        
+    }
+    figure{
+        border-top:1px solid black ;
+        border-right: 1px solid black;
+        border-bottom: 3px solid black;
+        float: right;
+        height: 1025px;
+        margin-right: -0.5px;
+        margin-top: -1028px;
+       
+    }
+    h1{
+        margin-top: -50px;
+        margin-left: 100px;
+        font-weight: bold;
+        
+    }
+    #headingtext{
+        font-size:34px;
+        margin-top: -20px;
+        letter-spacing: 0.2em;
+        font-weight: bolder;
+    
+    }
+
+    #optionTiles{
+        height: 250px;
+    }
+    
+    .explanation{
+        display:none;
+    }
+    ul{
+        list-style-type: none;
+        
+        font-family:  'Indie Flower', cursive;
+        font-weight: 300;
+        margin-left: 3.8%;
+        
+        margin-top: 30px;
+        display: block;
+        text-align: center;
+    }
+
+    li{
+        float: left;
+        width: 14.5%;
+        height: 50px;
+        border: 5px solid black;
+        background-color: rgb(114, 19, 158);
+        color: white;
+        font-size: 34px;
+        padding: 10px;
+        ;
+        border-radius: 100px;
+        
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+    li:hover{
+       
+        background-color: purple;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    button{
+        display: none;
+    }
+    #additionalTiles li{
+        margin-left: 240px;
+        height: 50px;
+    }
+    footer{
+        background-color: rgb(104, 101, 101);
+        color: white;  
+        font-size: 20px;
+        font-style: italic;
+        height: 50px;
+        margin-top: 190px;
+        margin-bottom: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+ 
+    #additionalTiles{
+        height: 250px;
+       
+    }
+    form{
+        text-align: center;
+    }
+
+    label{
+        font-size: 30px;
+        font-family:  'Indie Flower', cursive;
+        float: left;
+        clear: left;
+        font-weight: bolder;
+        margin-top: 10px;
+        text-align: left;
+    }
+    #fName{
+       
+        margin-left: -500px;
+        height: 20px;
+        margin-top: 25px;
+        width: 500px;
+    }
+   #lName{
+    
+    height: 20px;
+    margin-left: -500px;
+
+    margin-top: 25px;
+    width: 500px;
+
+   }
+   #email{
+  
+    height: 20px;
+    margin-left: -472px;
+
+    margin-top: 25px;
+    width: 500px;
+   }
+   #Phone{
+    margin-left: -745px;
+    height: 23px;
+    margin-top: 30px;
+   }
+    
+   #NumberOFchildren{
+
+    margin-left: -480px;
+    margin-top: 25px;
+    width: 500px;
+    height: 55px;
+    font-size: 30px;
+    margin-bottom: 20px;
+   }
+
+   #submit{
+       float: left;
+       margin-left: 700px;
+       margin-top: -205px;
+       font-size: 60px;
+       background-color: rgb(114, 19, 158);
+       color: yellow;
+       padding: 10px;
+       border: 5px solid black;
+       border-radius: 100px;
+   }
+   #submit:hover{
+    background-color: rgb(58, 10, 80);
+    color: white;
+
+   }
+
+   #clear{
+    float: left;
+    margin-left: 700px;
+    margin-top: -45px;
+    font-size: 60px;
+    background-color: rgb(114, 19, 158);
+    color: yellow;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 100px;
+   }
+   #clear:hover{
+    background-color: rgb(58, 10, 80);
+    color: white;
+
+   }
+   legend{
+       text-align: right;
+   }
+   fieldset{
+       border: none;
+       background-image: url(./media/formbackground.jpg);
+   }
+
+   #specialneeds{
+       float: left;
+       width: 50px;
+       height: 50px;
+       margin-left: 45.0px;
+       margin-top: 0;
+   }
+   #comments{
+       
+       overflow: hidden;
+       float: left;
+       margin-left: -60px;
+       margin-top: 50px;
+   }
+   a{ 
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+  }
+
+}
+
+@media screen and (max-width: 1532px) {
+    #PageWrap{
+        width: 92%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        background-color: rgba(239, 160, 255, 0.356);
+
+        
+    }
+    
+    header{
+        text-align: center;
+        font-family:  'Indie Flower', cursive;
+        font-size: 50px;
+       color: rgb(230, 144, 65);
+        letter-spacing:0.2em;
+        
+    }
+    #headingtext{
+        font-size:42px;
+        margin-top: -20px;
+        letter-spacing: 0.2em;
+        font-weight: bolder;
+    }
+    fieldset{
+        border: none;
+        background-image: url(./media/formbackground.jpg);
+    }
+
+    figure{
+       float: right;
+       height: 800px;
+       margin-right: -40px;
+       margin-top: -575px;
+       width: 750px;
+       height: 1050px;
+    }
+    .explanation{
+        display:none;
+    }
+    ul{
+        list-style-type: none;
+        
+        font-family:  'Indie Flower', cursive;
+        font-weight: 300;
+        margin-left: 100px;
+        
+        margin-top: 30px;
+        display: block;
+        text-align: center;
+    }
+
+    li{
+       
+        width: 300px;
+        height: 50px;
+        border: 5px solid black;
+        background-color: rgb(114, 19, 158);
+        color: white;
+        font-size: 34px;
+        padding: 10px;
+        ;
+        border-radius: 100px;
+        
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+    li:hover{
+       
+        background-color: purple;
+        color: white;
+        font-weight: bold;
+    }
+    button{
+        display: none;
+    }
+    footer{
+        background-color: rgb(104, 101, 101);
+        color: white;  
+        font-size: 20px;
+        font-style: italic;
+        height: 50px;
+        margin-top: 190px;
+        margin-bottom: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+
+    form{
+        text-align: center;
+    }
+ label{
+     font-size: 20px;
+     float: left;
+     clear: left;
+     margin-bottom: 25px;
+ }
+ #fName{
+       
+    margin-left: -100px;
+    height: 20px;
+    margin-top: 05px;
+    width: 100px;
+}
+
+#lName{
+
+height: 20px;
+margin-left: -100px;
+
+margin-top: 15px;
+width: 100px;
+
+}
+#email{
+
+height: 20px;
+margin-left: -40px;
+
+margin-top: 27px;
+width: 150px;
+}
+#Phone{
+margin-left: 0px;
+height: 23px;
+margin-top: 27px;
+}
+
+#NumberOFchildren{
+
+margin-left: -170px;
+margin-top: 10px;
+width: 30px;
+height: 30px;
+margin-bottom: 20px;
+}
+
+#submit{
+
+   background-color: rgb(114, 19, 158);
+   color: yellow;
+   padding: 10px;
+   border: 5px solid black;
+   border-radius: 100px;
+}
+#submit:hover{
+background-color: rgb(58, 10, 80);
+color: white;
+
+}
+
+#clear{
+
+background-color: rgb(114, 19, 158);
+color: yellow;
+padding: 10px;
+border: 5px solid black;
+border-radius: 100px;
+}
+#clear:hover{
+background-color: rgb(58, 10, 80);
+color: white;
+
+}
+legend{
+   text-align: right;
+}
+fieldset{
+   border: none;
+   background-image: url(./media/formbackground.jpg);
+}
+
+#specialneeds{
+   float: left;
+   width: 50px;
+   height: 50px;
+   margin-left: 45.0px;
+   margin-top: 0;
+}
+#comments{
+   
+   overflow: hidden;
+   float: left;
+   margin-left: -60px;
+   margin-top: 50px;
+}
+a{ 
+text-decoration: none;
+color: rgb(255, 0, 0);
+}
+
+
+}
